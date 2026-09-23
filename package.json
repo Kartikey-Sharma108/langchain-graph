@@ -1,0 +1,17 @@
+{
+  "name": "langchain-code-chai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --env-file=.env src/index.js",
+    "index.js": "node --env-file=.env src/index.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.12",
+    "@langchain/openai": "^1.5.13",
+    "@tavily/core": "^0.7.2",
+    "langchain": "^1.5.12",
+    "zod": "^3.24.2"
+  }
+}
